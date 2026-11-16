@@ -4,9 +4,9 @@ title: Add a greeting helper
 milestone: M1
 priority: P0
 size: S
-status: ready
+status: proposed
 depends_on: []
-openspec_change: null
+openspec_change: bl-001-add-a-greeting-helper
 completed_at: null
 delivery_ref: null
 ---
