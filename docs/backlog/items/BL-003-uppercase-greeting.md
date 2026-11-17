@@ -4,7 +4,7 @@ title: Add an uppercase greeting helper
 milestone: M1
 priority: P1
 size: S
-status: proposed
+status: implementing
 depends_on: []
 openspec_change: bl-003-add-an-uppercase-greeting-helper
 completed_at: null
