@@ -4,11 +4,11 @@ title: Add an uppercase greeting helper
 milestone: M1
 priority: P1
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-003-add-an-uppercase-greeting-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-17T07:11:01-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/4
 ---
 # BL-003: Add an uppercase greeting helper
 
