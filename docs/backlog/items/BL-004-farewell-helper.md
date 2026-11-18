@@ -4,7 +4,7 @@ title: Add a farewell helper
 milestone: M1
 priority: P1
 size: S
-status: proposed
+status: implementing
 depends_on: []
 openspec_change: bl-004-add-a-farewell-helper
 completed_at: null
