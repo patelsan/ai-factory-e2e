@@ -4,11 +4,11 @@ title: Add a farewell helper
 milestone: M1
 priority: P1
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-004-add-a-farewell-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-17T18:37:47-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/8
 ---
 # BL-004: Add a farewell helper
 
