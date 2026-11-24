@@ -4,9 +4,9 @@ title: Add a repeat helper
 milestone: M1
 priority: P2
 size: S
-status: ready
+status: proposed
 depends_on: []
-openspec_change: null
+openspec_change: bl-008-add-a-repeat-helper
 completed_at: null
 delivery_ref: null
 ---
