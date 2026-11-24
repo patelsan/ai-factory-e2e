@@ -4,9 +4,9 @@ title: Add a wave helper
 milestone: M1
 priority: P2
 size: S
-status: ready
+status: proposed
 depends_on: []
-openspec_change: null
+openspec_change: bl-005-add-a-wave-helper
 completed_at: null
 delivery_ref: null
 ---
@@ -41,7 +41,10 @@ None.
 
 ## References
 
+- `docs/architecture/overview.md` — small Node.js CLI with no external dependencies.
+- `docs/architecture/tech-stack.md` — Node.js 26, built-in test runner, npm.
 - `docs/development.md` — `npm test`.
+- `openspec/changes/bl-005-add-a-wave-helper/proposal.md` — OpenSpec change `bl-005-add-a-wave-helper`.
 
 ## Open Questions
 
