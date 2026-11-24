@@ -4,11 +4,11 @@ title: Add a repeat helper
 milestone: M1
 priority: P2
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-008-add-a-repeat-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-24T11:10:07-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/20
 ---
 # BL-008: Add a repeat helper
 
