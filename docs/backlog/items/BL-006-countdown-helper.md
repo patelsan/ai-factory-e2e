@@ -4,11 +4,11 @@ title: Add a countdown helper
 milestone: M1
 priority: P2
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-006-add-a-countdown-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-24T10:16:36-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/16
 ---
 # BL-006: Add a countdown helper
 
