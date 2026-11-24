@@ -4,11 +4,11 @@ title: Add a wave helper
 milestone: M1
 priority: P2
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-005-add-a-wave-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-24T03:27:26-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/12
 ---
 # BL-005: Add a wave helper
 
