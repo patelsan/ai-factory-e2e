@@ -4,7 +4,7 @@ title: Add a capitalize helper
 milestone: M1
 priority: P2
 size: S
-status: proposed
+status: implementing
 depends_on: []
 openspec_change: bl-009-add-a-capitalize-helper
 completed_at: null
