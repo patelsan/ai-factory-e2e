@@ -4,11 +4,11 @@ title: Add a slugify helper
 milestone: M1
 priority: P2
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-007-add-a-slugify-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-24T11:28:15-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/23
 ---
 # BL-007: Add a slugify helper
 
