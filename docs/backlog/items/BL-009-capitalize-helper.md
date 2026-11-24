@@ -4,11 +4,11 @@ title: Add a capitalize helper
 milestone: M1
 priority: P2
 size: S
-status: implementing
+status: done
 depends_on: []
 openspec_change: bl-009-add-a-capitalize-helper
-completed_at: null
-delivery_ref: null
+completed_at: 2026-11-24T16:09:10-06:00
+delivery_ref: https://github.com/patelsan/ai-factory-e2e/pull/27
 ---
 # BL-009: Add a capitalize helper
 
