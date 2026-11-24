@@ -2,19 +2,19 @@
 
 ## 1. Implement the repeat helper
 
-- [ ] 1.1 Create `src/repeat.js` with a named `repeatText(text, n)` ESM export; verify the module imports cleanly and exposes a callable function.
-- [ ] 1.2 Implement `repeatText(text, n)` so it returns the supplied text repeated `n` times joined by a single space; verify `node --input-type=module -e 'import("./src/repeat.js").then(m => console.log(m.repeatText("ha", 3)))'` prints `ha ha ha`.
+- [x] 1.1 Create `src/repeat.js` with a named `repeatText(text, n)` ESM export; verify the module imports cleanly and exposes a callable function.
+- [x] 1.2 Implement `repeatText(text, n)` so it returns the supplied text repeated `n` times joined by a single space; verify `node --input-type=module -e 'import("./src/repeat.js").then(m => console.log(m.repeatText("ha", 3)))'` prints `ha ha ha`.
 
 ## 2. Add acceptance coverage
 
-- [ ] 2.1 Add `src/test/repeat.test.js` using `node:test` and `node:assert/strict`; verify `npm test` passes.
-- [ ] 2.2 Cover scenario "Three repetitions" with the input `"ha"` repeated `3` times and expected output `ha ha ha`; verify the assertion compares the complete string and would fail if the count or separator changed.
-- [ ] 2.3 Cover scenario "Single repetition has no separator" with the input `"ha"` repeated `1` time and expected output `ha`; verify the assertion fails if a leading or trailing space is added.
+- [x] 2.1 Add `src/test/repeat.test.js` using `node:test` and `node:assert/strict`; verify `npm test` passes.
+- [x] 2.2 Cover scenario "Three repetitions" with the input `"ha"` repeated `3` times and expected output `ha ha ha`; verify the assertion compares the complete string and would fail if the count or separator changed.
+- [x] 2.3 Cover scenario "Single repetition has no separator" with the input `"ha"` repeated `1` time and expected output `ha`; verify the assertion fails if a leading or trailing space is added.
 
 ## 3. Verify scope and regression safety
 
-- [ ] 3.1 Run `npm test` and verify the new repeat tests, the existing countdown, wave, farewell, and shout tests, and the existing smoke test pass.
-- [ ] 3.2 Verify no changes were made to `src/countdown.js`, `src/wave.js`, `src/shout.js`, `src/farewell.js`, CI workflows, or repository settings; confirm the delivered change is limited to `src/repeat.js`, `src/test/repeat.test.js`, and the planning artifacts.
+- [x] 3.1 Run `npm test` and verify the new repeat tests, the existing countdown, wave, farewell, and shout tests, and the existing smoke test pass.
+- [x] 3.2 Verify no changes were made to `src/countdown.js`, `src/wave.js`, `src/shout.js`, `src/farewell.js`, CI workflows, or repository settings; confirm the delivered change is limited to `src/repeat.js`, `src/test/repeat.test.js`, and the planning artifacts.
 
 ## Acceptance traceability
 
