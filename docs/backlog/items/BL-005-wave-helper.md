@@ -4,7 +4,7 @@ title: Add a wave helper
 milestone: M1
 priority: P2
 size: S
-status: proposed
+status: implementing
 depends_on: []
 openspec_change: bl-005-add-a-wave-helper
 completed_at: null
