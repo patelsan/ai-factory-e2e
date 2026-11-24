@@ -4,7 +4,7 @@ title: Add a countdown helper
 milestone: M1
 priority: P2
 size: S
-status: proposed
+status: implementing
 depends_on: []
 openspec_change: bl-006-add-a-countdown-helper
 completed_at: null
