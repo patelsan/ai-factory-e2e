@@ -2,19 +2,19 @@
 
 ## 1. Implement the countdown helper
 
-- [ ] 1.1 Create `src/countdown.js` with a named `countdown(n)` ESM export; verify the module imports cleanly and exposes a callable function.
-- [ ] 1.2 Implement `countdown(n)` so it returns the integers from `n` down to `1` joined by `, `; verify `node --input-type=module -e 'import("./src/countdown.js").then(m => console.log(m.countdown(3)))'` prints `3, 2, 1`.
+- [x] 1.1 Create `src/countdown.js` with a named `countdown(n)` ESM export; verify the module imports cleanly and exposes a callable function.
+- [x] 1.2 Implement `countdown(n)` so it returns the integers from `n` down to `1` joined by `, `; verify `node --input-type=module -e 'import("./src/countdown.js").then(m => console.log(m.countdown(3)))'` prints `3, 2, 1`.
 
 ## 2. Add acceptance coverage
 
-- [ ] 2.1 Add `src/test/countdown.test.js` using `node:test` and `node:assert/strict`; verify `npm test` passes.
-- [ ] 2.2 Cover scenario "Countdown from three" with the input `3` and expected output `3, 2, 1`; verify the assertion compares the complete string and would fail if the order or separator changed.
-- [ ] 2.3 Cover scenario "Countdown from one has no separator" with the input `1` and expected output `1`; verify the assertion fails if a leading or trailing separator is added.
+- [x] 2.1 Add `src/test/countdown.test.js` using `node:test` and `node:assert/strict`; verify `npm test` passes.
+- [x] 2.2 Cover scenario "Countdown from three" with the input `3` and expected output `3, 2, 1`; verify the assertion compares the complete string and would fail if the order or separator changed.
+- [x] 2.3 Cover scenario "Countdown from one has no separator" with the input `1` and expected output `1`; verify the assertion fails if a leading or trailing separator is added.
 
 ## 3. Verify scope and regression safety
 
-- [ ] 3.1 Run `npm test` and verify the new countdown tests, the existing wave, farewell, and shout tests, and the existing smoke test pass.
-- [ ] 3.2 Verify no changes were made to `src/wave.js`, `src/shout.js`, `src/farewell.js`, CI workflows, or repository settings; confirm the delivered change is limited to `src/countdown.js`, `src/test/countdown.test.js`, and the planning artifacts.
+- [x] 3.1 Run `npm test` and verify the new countdown tests, the existing wave, farewell, and shout tests, and the existing smoke test pass.
+- [x] 3.2 Verify no changes were made to `src/wave.js`, `src/shout.js`, `src/farewell.js`, CI workflows, or repository settings; confirm the delivered change is limited to `src/countdown.js`, `src/test/countdown.test.js`, and the planning artifacts.
 
 ## Acceptance traceability
 
