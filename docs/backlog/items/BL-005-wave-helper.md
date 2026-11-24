@@ -1,0 +1,48 @@
+---
+id: BL-005
+title: Add a wave helper
+milestone: M1
+priority: P2
+size: S
+status: ready
+depends_on: []
+openspec_change: null
+completed_at: null
+delivery_ref: null
+---
+# BL-005: Add a wave helper
+
+## Outcome
+
+Add `wave(name)` in `src/wave.js` returning `Hello there, <name>!`, with a test.
+
+## In Scope
+
+- A standalone `wave(name)` helper exported from `src/wave.js`.
+- Automated coverage through the existing `npm test` script.
+
+## Out of Scope
+
+- Changes to `src/shout.js`, `src/farewell.js`, or any other item's scope.
+- New dependencies, CI, repository settings, or secrets.
+
+## Acceptance Criteria
+
+- [ ] `wave(name)` exported from `src/wave.js` returns `Hello there, <name>!`.
+- [ ] An automated test covers the message and runs within `npm test`.
+
+## Verification
+
+- `npm test` passes.
+
+## Dependencies
+
+None.
+
+## References
+
+- `docs/development.md` — `npm test`.
+
+## Open Questions
+
+None.
